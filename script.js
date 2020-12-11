@@ -17,23 +17,23 @@ Possible combinations: 256*256*256=16777216
 Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 */ 
 
-// function random(number) {
-//   return Math.floor(Math.random() * (number+1));
-// }
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
 
-// function changeColor() {
-//   const randomColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-//   document.body.style.backgroundColor = randomColor;
-// }
+function changeColor() {
+  const randomColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+  document.body.style.backgroundColor = randomColor;
+}
 
-// document.getElementById('color-button').addEventListener('click', changeColor)
+document.getElementById('color-button').addEventListener('click', changeColor)
 
 
 /* Hexadecimal code
 
+=> Base-16
 10 decimal digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) + the first six letters of the English alphabet (A, B, C, D, E, F)
 (The letters are used to represent the values 10, 11, 12, 13, 14 and 15 each in one single symbol)
-=> base-16
 
 ex: Black 	#000000
 White: 	#FFFFFF
@@ -46,16 +46,16 @@ Orange: 	#FFA500
 Source: https://css-tricks.com/snippets/javascript/random-hex-color/ 
 */
 
-
-let randomColor = Math.floor(Math.random()*16777216).toString(16);
-
+/*
 function changeColor2(){
-  const randomColor = Math.floor(Math.random()*16777216).toString(16);
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
   document.body.style.backgroundColor = "#" + randomColor;
   color.innerHTML = "#" + randomColor;
 }
 
 document.getElementById('color-button').addEventListener('click', changeColor2)
+
+*/
 
 
 /*  3) Lodash _.random + rgb color
