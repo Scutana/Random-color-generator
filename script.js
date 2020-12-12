@@ -57,7 +57,7 @@ document.getElementById('color-button').addEventListener('click', changeColor2)
 
 
 
-/*  3) Lodash _.random + rgb color
+/*  3) Lodash _.random + rgb code
 Source: http://www.tutorialsavvy.com/2015/02/random-number-generator-using-lodash-utility.html/
 */
 
