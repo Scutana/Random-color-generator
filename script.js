@@ -46,7 +46,7 @@ Orange: 	#FFA500
 Source: https://css-tricks.com/snippets/javascript/random-hex-color/ 
 */
 
-/*
+
 function changeColor2(){
   const randomColor = Math.floor(Math.random()*16777215).toString(16);
   document.body.style.backgroundColor = "#" + randomColor;
@@ -55,14 +55,13 @@ function changeColor2(){
 
 document.getElementById('color-button').addEventListener('click', changeColor2)
 
-*/
 
 
 /*  3) Lodash _.random + rgb color
 Source: http://www.tutorialsavvy.com/2015/02/random-number-generator-using-lodash-utility.html/
 */
 
-/*
+
 function changeColor3() {
   let red = _.random(0, 255);
   let green = _.random(0, 255);
@@ -72,4 +71,3 @@ function changeColor3() {
 
 document.getElementById('color-button').addEventListener('click', changeColor3)
 
-*/
